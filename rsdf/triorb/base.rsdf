@@ -2,7 +2,7 @@
 
 <robot name="triorb">
   <planar_surface name="Base" link="base">
-    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.30" />
+    <origin rpy="0.0 0.0 1.57079632679" xyz="0.0 0.015 0.30" />
     <points>
       <point xy="-0.0745 -0.0745" />
       <point xy="0.0745 -0.0745" />

@@ -12,6 +12,9 @@ actuated joints:
 | `base_y`   | prismatic  | world `y` |
 | `base_yaw` | continuous | world `z` |
 
+The fixed link `mount` is where the UR5e `base_link` sits on CallM (15 mm along base +y, turned +90 deg),
+and the RSDF surface `Base` has the same pose. The base mass and inertia come from the CallM MuJoCo model.
+
 Layout
 --
 
